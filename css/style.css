@@ -22,24 +22,22 @@ header{
   max-width: 100%;
   padding: 2rem;
   background-color: #6d0e75;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
 }
 
 nav{
   display: flex;
   gap: 4rem;
-  font-weight: 300;
+  margin-top: 1px;
 }
 nav a{
   color: #fff;
   font-size: 1.2rem;
   padding: 10px;
+  border-radius: 4px;
 }
 nav a:hover{
   color: #000000;
   background-color: #ffbdf6;
-  border-radius: 4px;
   transition: 0.3s all;
 }
 nav li:hover{
@@ -52,7 +50,7 @@ main{
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-content: center;
-  padding: 130px 0px 0px 0px;
+  padding: 130px 20px 20px 20px;
 }
 .text{
   color:#830071;
@@ -81,4 +79,49 @@ main{
   background-color: #6d0e75;
   color: #fff;
   transition: 0.3s all;
+}
+
+footer{
+  background-color: #6d0e75;
+  color:#fff;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 280px;
+}
+
+
+/* Cristais */
+
+.info{
+  gap: 4rem;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding: 130px 20px 20px 20px;
+}
+
+.negativa{
+  gap: 4rem;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding: 130px 20px 20px 20px;
+}
+
+.aprendizado{
+  gap: 4rem;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding: 130px 20px 20px 20px;
+}
+
+.amor{
+  gap: 4rem;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding: 130px 20px 20px 20px;
 }
